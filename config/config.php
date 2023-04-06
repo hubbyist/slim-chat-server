@@ -15,7 +15,7 @@ use SlimChatServer\Settings;
 
 Settings::call()->init([
 	'database' => 'common/slim-chat-server',
-	'jwtsecret' => 'q3JPKtJyHAp30gAt1MS6KYjkAXBgJIwD',
+	'jwtsecret' => null,
 	'cookie' => (object) [
 		'name' => 'authentication',
 		'path' => $application->getBasePath(),

@@ -8,6 +8,12 @@ To start server cd into the project folder
 
 Use composer to install dependencies
 
+Add a high entropy secret into 'jwtsecret' key in the config/config.php
+You may use the following command to generate a secret
+```
+openssl rand -base64 24
+```
+
 Create an empty database
 ```
 sqlite3 common/slim-chat-server.db
