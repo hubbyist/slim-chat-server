@@ -1,0 +1,37 @@
+/*
+# ---------------------------------------------------------------------------- *
+#
+# LICENSE UNDECIDED
+#
+# ---------------------------------------------------------------------------- *
+# Copyright 2023 Mehmet Durgel. All Rights Reserved.
+# ---------------------------------------------------------------------------- *
+# @author Mehmet Durgel<md@legrud.net>
+# ---------------------------------------------------------------------------- *
+*/
+html, body, main{
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+body{
+	padding: 2vw;
+	width: 100vw;
+}
+
+main *{
+	display: block;
+	width: 90vh;
+	max-width: 90vw;
+	margin: 0 auto;
+}
+
+#dialog-content{
+	min-height: 70vh;
+}
+#message{
+	min-height: 16vh;
+}
+.buttons *{
+	display: inline-block;
+}
